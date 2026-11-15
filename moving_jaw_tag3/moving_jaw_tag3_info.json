@@ -1,0 +1,28 @@
+{
+ "tag_id": 3,
+ "family": "tag36h11",
+ "black_square_mm": 30.0,
+ "tag_centre_mm": [
+  16.0,
+  -34.0,
+  0.0
+ ],
+ "tag_normal": [
+  1,
+  0,
+  0
+ ],
+ "tag_up": "glue with tag row 0 towards -y (finger tip) or +y: state which when calibrating",
+ "frame": "Moving_Jaw_SO101.stl / moving_jaw_so101_v1.stl mesh coordinates (mm)",
+ "face": {
+  "x": 15.0,
+  "y": [
+   -52.0,
+   -16.0
+  ],
+  "z": [
+   -18.0,
+   18.0
+  ]
+ }
+}

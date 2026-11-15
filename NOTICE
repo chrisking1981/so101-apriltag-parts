@@ -1,0 +1,8 @@
+SO-101 AprilTag parts
+
+moving_jaw_tag3/Moving_Jaw_SO101_tag3.* is a modified version of Moving_Jaw_SO101.stl from
+TheRobotStudio/SO-ARM100 (https://github.com/TheRobotStudio/SO-ARM100), licensed under the
+Apache License 2.0. Change: an integrated 36 x 36 mm face for a glue-on AprilTag was added.
+
+The foot cap and the tag-2 holder are designed to fit the SO-101 parts from the same project
+(base / wrist camera mount Wrist_Cam_Mount_32x32_UVC_Module_SO101).
