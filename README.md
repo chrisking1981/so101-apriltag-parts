@@ -10,7 +10,7 @@ and the script that made the part.
 | `foot_tags_id0_id1/` | Cap under the robot foot with two tag holders (left / right) | 0, 1 | printed and used |
 | `fixed_jaw_tag2/` | Flat 36 x 36 mm holder that clips on the wrist camera mount (fixed jaw side) | 2 | printed and fitted |
 | `moving_jaw_tag3/` | New moving jaw: the official jaw with a 36 x 36 mm tag face built in | 3 | designed, **not printed yet** |
-| `d435_tags_id4_id5/` | Two glue-on tags for the RealSense D435 (tags only, no holder) | 4, 5 | designed, not printed yet |
+| `d435_tags_id4_id5/` | Two glue-on tags for the RealSense D435 view, 60 x 60 mm with 50 mm black square like the foot tags (tags only, no holder) | 4, 5 | designed, not printed yet |
 | `tools/` | Script that builds the Bambu `.3mf` projects, render script (MuJoCo) | | |
 
 ![tag 2 holder](fixed_jaw_tag2/review_flat.png)
@@ -20,7 +20,7 @@ Tag ids in use: 0, 1 foot; 2 fixed jaw; 3 moving jaw; 4, 5 D435; 10-13 table; 10
 
 ## Printing
 
-**Tags (36 x 36 x 1 mm, 30 mm black square):** print **face up**: 1 mm white base on the bed, the
+**Tags (gripper: 36 x 36 x 1 mm, 30 mm black square; foot and D435: 60 x 60 x 1 mm, 50 mm black):** print **face up**: 1 mm white base on the bed, the
 black pattern as the top 0.2 mm. Filament 1 = white, filament 2 = black. (Printed face down, the
 small white islands do not stick.) Glue the tag on its holder.
 

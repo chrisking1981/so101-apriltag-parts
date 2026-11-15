@@ -30,12 +30,12 @@ def mesh_xml(oid, T):
 objects = []
 for k, tid in enumerate((4, 5)):
     white = load(D / f'tag{tid}_sticker_WHITE.stl'); black = load(D / f'tag{tid}_sticker_BLACK.stl')
-    objects.append((f'tag{tid} D435 (face up)', [(f'tag{tid} WHITE (filament 1)', white, 1), (f'tag{tid} BLACK (filament 2)', black, 2)], (105.0 + 50 * k, 128.0)))
-    S, M = 20, 40
-    img = Image.new('L', (36 * S + 2 * M, 36 * S + 2 * M), 255); dr = ImageDraw.Draw(img)
+    objects.append((f'tag{tid} D435 (face up)', [(f'tag{tid} WHITE (filament 1)', white, 1), (f'tag{tid} BLACK (filament 2)', black, 2)], (90.0 + 76 * k, 128.0)))
+    S, M, W = 12, 40, 60
+    img = Image.new('L', (W * S + 2 * M, W * S + 2 * M), 255); dr = ImageDraw.Draw(img)
     for t in black:
         if np.ptp(t[:, 2]) < 1e-6 and t[0, 2] > 0.9:
-            dr.polygon([(M + p[0] * S, M + (36 - p[1]) * S) for p in t], fill=0)
+            dr.polygon([(M + p[0] * S, M + (W - p[1]) * S) for p in t], fill=0)
     img.save(OUT / f'tag{tid}_face.png')
 
 mesh_objs, model_objs, build, cfg = [], [], [], []
