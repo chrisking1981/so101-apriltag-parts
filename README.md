@@ -2,8 +2,8 @@
 
 3D-printable parts that put AprilTags (family **tag36h11**) on an SO-101 robot arm, so cameras can
 find the base and both gripper jaws. All tags are printed in two colours (white + black) on a
-Bambu Lab P1S with AMS. Each folder has STL + STEP files, a ready Bambu Studio project (`.3mf`)
-and the script that made the part.
+Bambu Lab P1S with AMS. The tag folders contain STL + STEP files, Bambu Studio projects (`.3mf`)
+and generation scripts. The modular D435 holder provides three separate print-oriented STLs, STEP models and source.
 
 | Folder | Part | Tag ids | Status |
 |---|---|---|---|
@@ -11,6 +11,7 @@ and the script that made the part.
 | `fixed_jaw_tag2/` | Flat 36 x 36 mm holder that clips on the wrist camera mount (fixed jaw side) | 2 | printed and fitted |
 | `moving_jaw_tag3/` | New moving jaw: the official jaw with a 36 x 36 mm tag face built in | 3 | designed, **not printed yet** |
 | `d435_tags_id4_id5/` | Two glue-on tags for the RealSense D435 view, 60 x 60 mm with 50 mm black square like the foot tags (tags only, no holder) | 4, 5 | designed, not printed yet |
+| `d435_holder_modular/` | Three-piece D435 bracket with two slide-in panels at +/-30 degrees, for 60 x 60 mm tags | uses 4, 5 | geometry and meshes checked; physical fit untested |
 | `tools/` | Script that builds the Bambu `.3mf` projects, render script (MuJoCo) | | |
 
 ![tag 2 holder](fixed_jaw_tag2/review_flat.png)
@@ -31,6 +32,10 @@ like the official jaw needs. Unscrew the old jaw from the servo horn and fit thi
 gripper open/close calibration afterwards.
 
 **Foot cap:** see `so101_full_underfoot_cap_apriltag_holders.3mf`.
+
+**Modular D435 holder:** print the three files in `d435_holder_modular/STL/`. See its [assembly and printing instructions](d435_holder_modular/README.md).
+
+![modular D435 holder](d435_holder_modular/assembly.png)
 
 ## Geometry
 

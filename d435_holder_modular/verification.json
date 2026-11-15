@@ -1,0 +1,33 @@
+{
+  "base": {
+    "valid": true,
+    "watertight": true,
+    "bounds_mm": [
+      62.0,
+      34.0,
+      41.0
+    ]
+  },
+  "left_panel": {
+    "valid": true,
+    "watertight": true,
+    "bounds_mm": [
+      64.0,
+      84.0,
+      4.5
+    ],
+    "assembly_interference_mm3": 0
+  },
+  "right_panel": {
+    "valid": true,
+    "watertight": true,
+    "bounds_mm": [
+      64.0,
+      84.0,
+      4.5
+    ],
+    "assembly_interference_mm3": 0
+  },
+  "clearance_per_side_mm": 0.2,
+  "physical_fit_tested": false
+}
