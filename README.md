@@ -10,10 +10,13 @@ and the script that made the part.
 | `foot_tags_id0_id1/` | Cap under the robot foot with two tag holders (left / right) | 0, 1 | printed and used |
 | `fixed_jaw_tag2/` | Flat 36 x 36 mm holder that clips on the wrist camera mount (fixed jaw side) | 2 | printed and fitted |
 | `moving_jaw_tag3/` | New moving jaw: the official jaw with a 36 x 36 mm tag face built in | 3 | designed, **not printed yet** |
+| `d435_tags_id4_id5/` | Two glue-on tags for the RealSense D435 (tags only, no holder) | 4, 5 | designed, not printed yet |
 | `tools/` | Script that builds the Bambu `.3mf` projects, render script (MuJoCo) | | |
 
 ![tag 2 holder](fixed_jaw_tag2/review_flat.png)
 ![new moving jaw, closed](moving_jaw_tag3/review_newjaw_closed.png)
+
+Tag ids in use: 0, 1 foot; 2 fixed jaw; 3 moving jaw; 4, 5 D435; 10-13 table; 100-128 calibration boards.
 
 ## Printing
 
